@@ -1,0 +1,530 @@
+<div class="main ml-72">
+  <div class="navbar-wrapper  flex justify-between p-3 border-b-2 border-b-slate-200   ">
+
+    <!-- box1 -->
+    <div class="left-icons flex flex-row items-center ml-5">
+      <a href="menu">
+        <img src="../../assets/icons/three-bars.svg" alt="bars icon" class="w-5 h-auto mr-5">
+      </a>
+
+      <a href="Arrows">
+        <img src="../../assets/icons/arrow-right-arrow-left.svg" alt="arrows icon" class="w-5 h-auto mr-5">
+      </a>
+    </div>
+
+    <!-- box2 -->
+    <div class="right-icons flex flex-row items-center">
+      <a href="Arrows">
+        <img src="../../assets/icons/languages.svg" alt="languages icon" class="w-5 h-auto mr-5">
+      </a>
+
+      <a href="Arrows">
+        <img src="../../assets/icons/search.svg" alt="Search icon" class="w-5 h-auto mr-5">
+      </a>
+
+      <a href="Arrows">
+        <img src="../../assets/icons/bookmark.svg" alt="Bookmark icon" class="w-5 h-auto mr-5">
+      </a>
+
+      <a href="Arrows">
+        <img src="../../assets/icons/inbox.svg" alt="inbox icon" class="w-5 h-auto mr-5">
+      </a>
+
+      <a href="Arrows">
+        <img src="../../assets/icons/bell.svg" alt="Notification icon" class="w-5 h-auto mr-5">
+      </a>
+      <a href="Arrows">
+        <img src="../../assets/icons/user.svg" alt="User icon"  class="w-5 h-auto mr-5">
+      </a>
+    </div>
+  </div> <!-- navbar-wrapper end -->
+
+  <!-- bread crumb section -->
+  <div class="bread-crumb-and-create flex flex-row justify-between items-center pb-5 border-b-2 border-b-slate-200">
+
+    <!-- box1 -->
+    <div class="bread-crumb">
+
+      <!-- box1 -->
+      <div class="flex mt-5 ml-5" aria-label="Breadcrumb">
+        <ol class="inline-flex items-center space-x-1 md:space-x-3">
+          <li class="inline-flex items-center">
+            <a href="#" class="inline-flex items-center text-sm font-medium  hover:text-gray-900 dark:text-[#f8a642] ">
+              Products
+            </a>
+          </li>
+          <li>
+            <div class="flex items-center">
+              <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+              <a href="#" class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 ">All Products</a>
+            </div>
+          </li>
+        </ol>
+      </div>
+
+      <!-- box2 -->
+      <div class="bread-crumb-title">
+        <h1 class="mt-5 ml-5 text-2xl">All Products</h1>
+        </div>
+      </div>
+
+    <!-- box2 -->
+    <div class="create-button mr-5  ">
+      <a href="create" class="flex flex-row justify-center w-24 p-1 rounded-2xl bg-black">
+        <img src="../../assets/icons/plus.png" alt="Plus" class="w-6 h-auto mr-1 invert ">
+        <button class="text-white">Create</button>
+      </a>
+    </div>
+  </div>
+
+
+
+  <div class="table-content-wrapper h-full p-5   bg-[#F1F5FA]">
+
+    <div class="dropdown-menu-and-filters-icons-wrapper  w-full p-5 rounded-t-xl bg-white flex justify-between items-center">
+
+      <!-- box1 -->
+      <div class="dropdown-menu">
+        <button id="dropdownDividerButton" data-dropdown-toggle="dropdownDivider" class="
+        text-black
+        w-96
+        flex
+        justify-between
+        p-2
+        items-center
+        rounded-lg
+        border-2
+        border-[#F1F5FA]
+        " type="button">
+          Please select
+
+          <svg class="ml-2 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+        </button>
+
+        <!-- Dropdown menu -->
+        <div id="dropdownDivider" class="
+        hidden
+        z-10
+        w-96
+        bg-white
+        rounded
+        divide-x
+        divide-gray-100
+        border-2
+        border-[#F1F5FA]
+        ">
+            <ul class="py-1 text-lg  " aria-labelledby="dropdownDividerButton">
+              <li>
+                <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+              </li>
+            </ul>
+
+        </div>
+      </div>
+
+      <!-- box2   -->
+      <div class="filters-icons flex flex-row items-center">
+
+        <div class="filter1">
+          <button type="button" class="
+            text-black
+            font-medium
+            rounded-lg
+            w-auto
+            text-sm
+            px-5
+            py-2.5
+            mr-2
+            mb-2
+            bg-[#F59E0C]
+            flex
+            items-center
+
+            ">
+            <img src="../../assets/icons/filter.svg" alt="filter icon" class="w-5 h-auto mr-5">
+            Filter
+
+          </button>
+        </div>
+
+        <div class="filter2">
+
+          <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="
+          text-black
+          font-medium
+          rounded-lg
+          w-auto
+          text-sm
+          px-5
+          py-2.5
+          mr-2
+          mb-2
+          bg-[#E2E7F0]
+          flex
+          flex-row
+          items-center
+          data-selection='List'
+
+          " type="button">Views
+          <svg class="ml-2 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+          <!-- Dropdown menu -->
+          <div id="dropdown" class="hidden
+          z-10
+          w-52
+          bg-white
+          rounded
+          divide-x
+          divide-gray-100
+          border-2
+          border-[#F1F5FA] " data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(319px, 70px);">
+              <ul class="py-1 text-lg" aria-labelledby="dropdownDefault">
+                <li>
+                  <a href="#" class="block py-2 px-4  ">List</a>
+                </li>
+                <li>
+                  <a href="#" class="block py-2 px-4  dark:hover:text-white">Gallery</a>
+                </li>
+
+              </ul>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <div class=" table-content relative bg-white rounded-b-xl">
+
+      <table class="w-full text-sm text-left ">
+          <thead class="text-xs uppercase bg-slate-200">
+            <tr>
+              <th scope="col" class="py-3 px-6">
+                Product code
+              </th>
+              <th scope="col" class="py-3 px-6">
+               Product name
+              </th>
+              <th scope="col" class="py-3 px-6">
+               Category
+              </th>
+              <th scope="col" class="py-3 px-6">
+                Division
+              </th>
+              <th scope="col" class="py-3 px-6">
+                Description
+              </th>
+              <th scope="col" class="py-3 px-6">
+                Suppliers
+              </th>
+              <th scope="col" class="py-3 px-6">
+                Date
+              </th>
+              <th scope="col" class="py-3 px-6">
+               Status
+              </th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="bg-white border-b ">
+              <th scope="row" class="py-4 px-6 font-medium whitespace-nowrap ">
+                1646244875
+              </th>
+              <td class="py-4 px-6">
+                Cleaning Widget
+              </td>
+              <td class="py-4 px-6">
+                Home
+              </td>
+              <td class="py-4 px-6">
+                Cleaning
+              </td>
+              <td class="py-4 px-6">
+                empty
+              </td>
+              <td class="py-4 px-6">
+                Writing, Ltd.
+              </td>
+              <td class="py-4 px-6">
+                2019-01-22T14:14:53.446-08:00
+              </td>
+              <td class="py-4 px-6 text-red-500">
+                Pending
+              </td>
+            </tr>
+
+            <tr class="bg-white border-b ">
+              <th scope="row" class="py-4 px-6 font-medium whitespace-nowrap ">
+                295445478
+              </th>
+              <td class="py-4 px-6">
+                Tire Tool
+              </td>
+              <td class="py-4 px-6">
+                Automotive
+              </td>
+              <td class="py-4 px-6">
+                Tire
+              </td>
+              <td class="py-4 px-6">
+                empty
+              </td>
+              <td class="py-4 px-6">
+                Textiles, Inc.
+              </td>
+              <td class="py-4 px-6">
+                2015-05-01T13:12:49.679-07:00
+              </td>
+              <td class="py-4 px-6 text-green-500">
+                shipped
+              </td>
+            </tr>
+
+            <tr class="bg-white border-b ">
+              <th scope="row" class="py-4 px-6 font-medium whitespace-nowrap ">
+                1083668116
+              </th>
+              <td class="py-4 px-6">
+                Tire Accessory
+              </td>
+              <td class="py-4 px-6">
+                Automotive
+              </td>
+              <td class="py-4 px-6">
+                Tire
+              </td>
+              <td class="py-4 px-6">
+                empty
+              </td>
+              <td class="py-4 px-6">
+                Media Production, LLC
+              </td>
+              <td class="py-4 px-6">
+                2013-03-29T18:08:14.307-07:00
+              </td>
+              <td class="py-4 px-6 text-green-500">
+                shipped
+              </td>
+            </tr>
+
+            <tr class="bg-white border-b ">
+              <th scope="row" class="py-4 px-6 font-medium whitespace-nowrap ">
+                1679373879
+              </th>
+              <td class="py-4 px-6">
+                Vitamin Accessory
+              </td>
+              <td class="py-4 px-6">
+                Vitamin
+              </td>
+              <td class="py-4 px-6">
+                Vitamin
+              </td>
+              <td class="py-4 px-6">
+                empty
+              </td>
+              <td class="py-4 px-6">
+                The Marketing Company
+              </td>
+              <td class="py-4 px-6">
+                2015-06-07T13:38:50.105-07:00
+              </td>
+              <td class="py-4 px-6 text-red-500">
+                Pending
+              </td>
+            </tr>
+
+            <tr class="bg-white border-b ">
+              <th scope="row" class="py-4 px-6 font-medium whitespace-nowrap ">
+                1360115413
+              </th>
+              <td class="py-4 px-6">
+                Camping Supplies
+              </td>
+              <td class="py-4 px-6">
+                Activity
+              </td>
+              <td class="py-4 px-6">
+                Camping
+              </td>
+              <td class="py-4 px-6">
+                empty
+              </td>
+              <td class="py-4 px-6">
+                Accounting Corp.
+              </td>
+              <td class="py-4 px-6">
+                2015-07-22T02:59:45.432-07:00
+              </td>
+              <td class="py-4 px-6 text-green-500">
+                shipped
+              </td>
+            </tr>
+
+            <tr class="bg-white border-b ">
+              <th scope="row" class="py-4 px-6 font-medium whitespace-nowrap ">
+                340750466
+              </th>
+              <td class="py-4 px-6">
+                Dining Apparatus
+              </td>
+              <td class="py-4 px-6">
+                Home
+              </td>
+              <td class="py-4 px-6">
+                Dining
+              </td>
+              <td class="py-4 px-6">
+                empty
+              </td>
+              <td class="py-4 px-6">
+                Public Relations, Inc.
+              </td>
+              <td class="py-4 px-6">
+                2011-10-07T13:42:19.911-07:00
+              </td>
+              <td class="py-4 px-6 text-red-500">
+                Pending
+              </td>
+            </tr>
+
+            <tr class="bg-white border-b ">
+              <th scope="row" class="py-4 px-6 font-medium whitespace-nowrap ">
+                1128420732
+              </th>
+              <td class="py-4 px-6">
+                Nutrition Accessory
+              </td>
+              <td class="py-4 px-6">
+                Health
+              </td>
+              <td class="py-4 px-6">
+                Nutrition
+              </td>
+              <td class="py-4 px-6">
+                empty
+              </td>
+              <td class="py-4 px-6">
+                Pharmaceuticals Corp.
+              </td>
+              <td class="py-4 px-6">
+                2022-01-15T22:07:59.927-08:00
+              </td>
+              <td class="py-4 px-6 text-green-500">
+                shipped
+              </td>
+            </tr>
+
+            <tr class="bg-white border-b ">
+              <th scope="row" class="py-4 px-6 font-medium whitespace-nowrap ">
+                203936575
+              </th>
+              <td class="py-4 px-6">
+                Party Instrument
+              </td>
+              <td class="py-4 px-6">
+                Entertainment
+              </td>
+              <td class="py-4 px-6">
+                Party
+              </td>
+              <td class="py-4 px-6">
+                empty
+              </td>
+              <td class="py-4 px-6">
+                Management Consulting Co.
+              </td>
+              <td class="py-4 px-6">
+                2018-05-06T05:17:59.954-07:00
+              </td>
+              <td class="py-4 px-6 text-green-500">
+                shipped
+              </td>
+            </tr>
+
+            <tr class="bg-white border-b ">
+              <th scope="row" class="py-4 px-6 font-medium whitespace-nowrap ">
+                730203783
+              </th>
+              <td class="py-4 px-6">
+                ,Home Improvement Whatchamacallit
+              </td>
+              <td class="py-4 px-6">
+                Home
+              </td>
+              <td class="py-4 px-6">
+                Home Improvement
+              </td>
+              <td class="py-4 px-6">
+                empty
+              </td>
+              <td class="py-4 px-6">
+                Management Consulting Co
+              </td>
+              <td class="py-4 px-6">
+                2018-05-06T05:17:59.954-07:00
+              </td>
+              <td class="py-4 px-6 text-red-500">
+                Pending
+              </td>
+            </tr>
+        </tbody>
+      </table>
+
+      <div class="pagenation mt-20 w-full  ">
+
+        <nav aria-label="Page navigation example" class="flex justify-center" >
+          <ul class="-space-x-px flex items-center">
+            <li>
+              <a href="#" class="block py-2 px-3 ml-0 ">
+                <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="py-2 px-3  ">1</a>
+            </li>
+            <li>
+              <a href="#" class="py-2 px-3  ">2</a>
+            </li>
+            <li>
+              <a href="#" aria-current="page" class="py-2 px-3 ">3</a>
+            </li>
+            <li>
+              <a href="#" class="py-2 px-3  ">4</a>
+            </li>
+            <li>
+              <a href="#" class="py-2 px-3  ">5</a>
+            </li>
+            <li>
+              <a href="#" class="block py-2 px-3 ">
+                <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+    </div>
+    </div>
+
+
+  </div>
+  <footer class="w-full h-auto  bg-white p-3 ">
+    <p>Neolink &copy; 2022</p>
+  </footer>
+
+</div>
